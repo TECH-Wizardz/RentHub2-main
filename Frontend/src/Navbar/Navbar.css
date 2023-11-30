@@ -1,0 +1,171 @@
+.navbar {
+  background: white;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.fa-home,
+.fa-tasks,
+.fa-headset,
+.fa-tools {
+  margin-right: 1rem;
+}
+
+img {
+  width: 200px;
+}
+
+.navbar-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(25%, 40%);
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.fa-stethoscope {
+  margin-right: 0.5rem;
+  font-size: 2.5rem;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 80vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.nav-links {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links:hover {
+  background-color: #1888ff;
+  border-radius: 4px;
+  transition: all 0.3s ease-out;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.nav-links-mobile,
+.nav-links-mobile-sub {
+  display: none;
+}
+.fas.fa-caret-down::before,
+.fas.fa-caret-up::before {
+  display: none;
+}
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav-menu {
+    display: flex;
+    z-index: 1000;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    top: 80px;
+    left: -100vw;
+    opacity: 5;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: #242222;
+    top: 80px;
+    left: 0px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .nav-links {
+    text-align: left;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+    position: relative;
+  }
+
+  .nav-links:hover {
+    background-color: #1888ff;
+    border-radius: 50px;
+  }
+  .fas.fa-caret-down::before,
+  .fas.fa-caret-up::before {
+    display: inline;
+    position: absolute;
+    top: 40%;
+    right: 5%;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+  .nav-links-mobile-sub {
+    display: block;
+    opacity: 0.7;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    background: #1888ff;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .nav-links-mobile:hover {
+    background: #fff;
+    color: #1888ff;
+    transition: 250ms;
+  }
+
+  button.sign_btn {
+    display: none;
+  }
+  .Rent {
+    background-color: yellow;
+  }
+
+}

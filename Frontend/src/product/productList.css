@@ -1,0 +1,78 @@
+.Button-edit {
+  background-color: #078d3a;
+  color: #ffffff;
+  padding: 6px;
+  border: #0c6464;
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 70px;
+  height: 40px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.Button-delete {
+  background-color: #bb3333;
+  color: #ffffff;
+  padding: 6px;
+  border: #0c6464;
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 70px;
+  height: 40px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.Button-edit:hover,
+.Button-delete:hover {
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.ReportButton {
+  background-color: #217fd6;
+  color: #ffffff;
+  padding: 6px;
+  border: #217fd6;
+  margin-top: 20px;
+  margin-left: 65%;
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.ReportButton:hover,
+.addMedBtn:hover {
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.highlight {
+  margin-top: 12px;
+  margin-left: 370px;
+}
+
+.td {
+  width: 165px;
+}
+
+.addMedBtn {
+  background-color: #078d3a;
+  color: #ffffff;
+  padding: 6px;
+  border: #078d3a;
+  margin-top: 20px;
+  margin-left: 4%;
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 20px;
+}

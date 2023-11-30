@@ -1,0 +1,26 @@
+.home-middle-container {
+    background-color: rgb(201, 204, 206);
+    height: 400px;
+}
+
+.top-paragraph {
+    padding-top: 100px;
+    text-decoration: solid;
+    font-size: xx-large;
+    color: white;
+}
+
+.bottom-paragraph {
+    text-align: left;
+    padding-top: 100px;
+}
+
+.sub-heading {
+    padding-top: 150px;
+    font-size: xx-large;
+}
+
+.renthub-btn {
+    margin-left: 10px;
+    margin-right: 10px;
+}
